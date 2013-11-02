@@ -37,6 +37,7 @@
 		85C93A4B182506EC00311FED /* TMDBoldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C93A4A182506EC00311FED /* TMDBoldTests.m */; };
 		85C93A4D182509C000311FED /* TMDHeadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C93A4C182509C000311FED /* TMDHeadingTests.m */; };
 		85C93A4F18250C8B00311FED /* TMDHorizontalRuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C93A4E18250C8B00311FED /* TMDHorizontalRuleTests.m */; };
+		85C93A51182518FE00311FED /* TMDImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C93A50182518FE00311FED /* TMDImageTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		85C93A4A182506EC00311FED /* TMDBoldTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDBoldTests.m; sourceTree = "<group>"; };
 		85C93A4C182509C000311FED /* TMDHeadingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDHeadingTests.m; sourceTree = "<group>"; };
 		85C93A4E18250C8B00311FED /* TMDHorizontalRuleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDHorizontalRuleTests.m; sourceTree = "<group>"; };
+		85C93A50182518FE00311FED /* TMDImageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDImageTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 				85C93A4A182506EC00311FED /* TMDBoldTests.m */,
 				85C93A4C182509C000311FED /* TMDHeadingTests.m */,
 				85C93A4E18250C8B00311FED /* TMDHorizontalRuleTests.m */,
+				85C93A50182518FE00311FED /* TMDImageTests.m */,
 			);
 			path = ToMarkdownTests;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 			files = (
 				85C93A451824FE5A00311FED /* TMDAnchorTests.m in Sources */,
 				85C93A4F18250C8B00311FED /* TMDHorizontalRuleTests.m in Sources */,
+				85C93A51182518FE00311FED /* TMDImageTests.m in Sources */,
 				85C93A4D182509C000311FED /* TMDHeadingTests.m in Sources */,
 				85C93A261824C0AB00311FED /* TMDElementTests.m in Sources */,
 				85C93A4B182506EC00311FED /* TMDBoldTests.m in Sources */,

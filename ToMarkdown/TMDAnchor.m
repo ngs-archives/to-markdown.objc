@@ -29,9 +29,8 @@
         repl = [NSString stringWithFormat:@"[%@](%@ \"%@\")", value, href, title];
       else
         repl = [NSString stringWithFormat:@"[%@](%@)", value, href];
-    }
-    if(repl)
       text = [text stringByReplacingCharactersInRange:[result rangeAtIndex:0] withString:repl];
+    }
   }
   return text;
 }

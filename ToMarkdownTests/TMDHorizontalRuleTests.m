@@ -17,7 +17,6 @@
 
 @implementation TMDHorizontalRuleTests
 
-
 - (void)setUp {
   [super setUp];
   [self setH:[[TMDHorizontalRule alloc] init]];
