@@ -14,6 +14,29 @@
 		85C93A101824BF9100311FED /* ToMarkdown.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C939F71824BF9000311FED /* ToMarkdown.dylib */; };
 		85C93A161824BF9100311FED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85C93A141824BF9100311FED /* InfoPlist.strings */; };
 		85C93A181824BF9100311FED /* ToMarkdownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C93A171824BF9100311FED /* ToMarkdownTests.m */; };
+		85C93A231824C07F00311FED /* TMDElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C93A211824C07F00311FED /* TMDElement.h */; };
+		85C93A241824C07F00311FED /* TMDElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C93A221824C07F00311FED /* TMDElement.m */; };
+		85C93A261824C0AB00311FED /* TMDElementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C93A251824C0AB00311FED /* TMDElementTests.m */; };
+		85C93A291824C40A00311FED /* TMDParagraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C93A271824C40A00311FED /* TMDParagraph.h */; };
+		85C93A2A1824C40B00311FED /* TMDParagraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C93A281824C40A00311FED /* TMDParagraph.m */; };
+		85C93A2D1824C43700311FED /* TMDLineBreak.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C93A2B1824C43700311FED /* TMDLineBreak.h */; };
+		85C93A2E1824C43700311FED /* TMDLineBreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C93A2C1824C43700311FED /* TMDLineBreak.m */; };
+		85C93A311824C44900311FED /* TMDHeading.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C93A2F1824C44900311FED /* TMDHeading.h */; };
+		85C93A321824C44900311FED /* TMDHeading.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C93A301824C44900311FED /* TMDHeading.m */; };
+		85C93A351824C49C00311FED /* TMDHorizontalRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C93A331824C49C00311FED /* TMDHorizontalRule.h */; };
+		85C93A361824C49D00311FED /* TMDHorizontalRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C93A341824C49C00311FED /* TMDHorizontalRule.m */; };
+		85C93A391824C4B500311FED /* TMDAnchor.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C93A371824C4B500311FED /* TMDAnchor.h */; };
+		85C93A3A1824C4B500311FED /* TMDAnchor.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C93A381824C4B500311FED /* TMDAnchor.m */; };
+		85C93A3D1824C4C600311FED /* TMDBold.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C93A3B1824C4C600311FED /* TMDBold.h */; };
+		85C93A3E1824C4C600311FED /* TMDBold.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C93A3C1824C4C600311FED /* TMDBold.m */; };
+		85C93A411824C4D800311FED /* TMDImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C93A3F1824C4D800311FED /* TMDImage.h */; };
+		85C93A421824C4D800311FED /* TMDImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C93A401824C4D800311FED /* TMDImage.m */; };
+		85C93A451824FE5A00311FED /* TMDAnchorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C93A441824FE5A00311FED /* TMDAnchorTests.m */; };
+		85C93A48182505C800311FED /* TMDItalic.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C93A46182505C800311FED /* TMDItalic.h */; };
+		85C93A49182505C800311FED /* TMDItalic.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C93A47182505C800311FED /* TMDItalic.m */; };
+		85C93A4B182506EC00311FED /* TMDBoldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C93A4A182506EC00311FED /* TMDBoldTests.m */; };
+		85C93A4D182509C000311FED /* TMDHeadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C93A4C182509C000311FED /* TMDHeadingTests.m */; };
+		85C93A4F18250C8B00311FED /* TMDHorizontalRuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C93A4E18250C8B00311FED /* TMDHorizontalRuleTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +63,29 @@
 		85C93A131824BF9100311FED /* ToMarkdownTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToMarkdownTests-Info.plist"; sourceTree = "<group>"; };
 		85C93A151824BF9100311FED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		85C93A171824BF9100311FED /* ToMarkdownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToMarkdownTests.m; sourceTree = "<group>"; };
+		85C93A211824C07F00311FED /* TMDElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDElement.h; sourceTree = "<group>"; };
+		85C93A221824C07F00311FED /* TMDElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDElement.m; sourceTree = "<group>"; };
+		85C93A251824C0AB00311FED /* TMDElementTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDElementTests.m; sourceTree = "<group>"; };
+		85C93A271824C40A00311FED /* TMDParagraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDParagraph.h; sourceTree = "<group>"; };
+		85C93A281824C40A00311FED /* TMDParagraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDParagraph.m; sourceTree = "<group>"; };
+		85C93A2B1824C43700311FED /* TMDLineBreak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDLineBreak.h; sourceTree = "<group>"; };
+		85C93A2C1824C43700311FED /* TMDLineBreak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDLineBreak.m; sourceTree = "<group>"; };
+		85C93A2F1824C44900311FED /* TMDHeading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDHeading.h; sourceTree = "<group>"; };
+		85C93A301824C44900311FED /* TMDHeading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDHeading.m; sourceTree = "<group>"; };
+		85C93A331824C49C00311FED /* TMDHorizontalRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDHorizontalRule.h; sourceTree = "<group>"; };
+		85C93A341824C49C00311FED /* TMDHorizontalRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDHorizontalRule.m; sourceTree = "<group>"; };
+		85C93A371824C4B500311FED /* TMDAnchor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDAnchor.h; sourceTree = "<group>"; };
+		85C93A381824C4B500311FED /* TMDAnchor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDAnchor.m; sourceTree = "<group>"; };
+		85C93A3B1824C4C600311FED /* TMDBold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDBold.h; sourceTree = "<group>"; };
+		85C93A3C1824C4C600311FED /* TMDBold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDBold.m; sourceTree = "<group>"; };
+		85C93A3F1824C4D800311FED /* TMDImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDImage.h; sourceTree = "<group>"; };
+		85C93A401824C4D800311FED /* TMDImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDImage.m; sourceTree = "<group>"; };
+		85C93A441824FE5A00311FED /* TMDAnchorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDAnchorTests.m; sourceTree = "<group>"; };
+		85C93A46182505C800311FED /* TMDItalic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDItalic.h; sourceTree = "<group>"; };
+		85C93A47182505C800311FED /* TMDItalic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDItalic.m; sourceTree = "<group>"; };
+		85C93A4A182506EC00311FED /* TMDBoldTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDBoldTests.m; sourceTree = "<group>"; };
+		85C93A4C182509C000311FED /* TMDHeadingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDHeadingTests.m; sourceTree = "<group>"; };
+		85C93A4E18250C8B00311FED /* TMDHorizontalRuleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDHorizontalRuleTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +154,7 @@
 			children = (
 				85C93A031824BF9100311FED /* ToMarkdown.h */,
 				85C93A041824BF9100311FED /* ToMarkdown.m */,
+				85C93A431824EA7E00311FED /* Elements */,
 				85C93A011824BF9100311FED /* Supporting Files */,
 			);
 			path = ToMarkdown;
@@ -126,6 +173,11 @@
 			children = (
 				85C93A171824BF9100311FED /* ToMarkdownTests.m */,
 				85C93A121824BF9100311FED /* Supporting Files */,
+				85C93A251824C0AB00311FED /* TMDElementTests.m */,
+				85C93A441824FE5A00311FED /* TMDAnchorTests.m */,
+				85C93A4A182506EC00311FED /* TMDBoldTests.m */,
+				85C93A4C182509C000311FED /* TMDHeadingTests.m */,
+				85C93A4E18250C8B00311FED /* TMDHorizontalRuleTests.m */,
 			);
 			path = ToMarkdownTests;
 			sourceTree = "<group>";
@@ -139,6 +191,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		85C93A431824EA7E00311FED /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				85C93A211824C07F00311FED /* TMDElement.h */,
+				85C93A221824C07F00311FED /* TMDElement.m */,
+				85C93A371824C4B500311FED /* TMDAnchor.h */,
+				85C93A381824C4B500311FED /* TMDAnchor.m */,
+				85C93A3B1824C4C600311FED /* TMDBold.h */,
+				85C93A3C1824C4C600311FED /* TMDBold.m */,
+				85C93A2F1824C44900311FED /* TMDHeading.h */,
+				85C93A301824C44900311FED /* TMDHeading.m */,
+				85C93A331824C49C00311FED /* TMDHorizontalRule.h */,
+				85C93A341824C49C00311FED /* TMDHorizontalRule.m */,
+				85C93A3F1824C4D800311FED /* TMDImage.h */,
+				85C93A401824C4D800311FED /* TMDImage.m */,
+				85C93A2B1824C43700311FED /* TMDLineBreak.h */,
+				85C93A2C1824C43700311FED /* TMDLineBreak.m */,
+				85C93A271824C40A00311FED /* TMDParagraph.h */,
+				85C93A281824C40A00311FED /* TMDParagraph.m */,
+				85C93A46182505C800311FED /* TMDItalic.h */,
+				85C93A47182505C800311FED /* TMDItalic.m */,
+			);
+			name = Elements;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -146,6 +223,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C93A411824C4D800311FED /* TMDImage.h in Headers */,
+				85C93A351824C49C00311FED /* TMDHorizontalRule.h in Headers */,
+				85C93A231824C07F00311FED /* TMDElement.h in Headers */,
+				85C93A291824C40A00311FED /* TMDParagraph.h in Headers */,
+				85C93A2D1824C43700311FED /* TMDLineBreak.h in Headers */,
+				85C93A311824C44900311FED /* TMDHeading.h in Headers */,
+				85C93A48182505C800311FED /* TMDItalic.h in Headers */,
+				85C93A391824C4B500311FED /* TMDAnchor.h in Headers */,
+				85C93A3D1824C4C600311FED /* TMDBold.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +279,7 @@
 		85C939EF1824BF9000311FED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TMD;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "LittleApps Inc.";
 				TargetAttributes = {
@@ -235,7 +322,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C93A241824C07F00311FED /* TMDElement.m in Sources */,
+				85C93A361824C49D00311FED /* TMDHorizontalRule.m in Sources */,
+				85C93A3E1824C4C600311FED /* TMDBold.m in Sources */,
+				85C93A2A1824C40B00311FED /* TMDParagraph.m in Sources */,
+				85C93A3A1824C4B500311FED /* TMDAnchor.m in Sources */,
 				85C93A051824BF9100311FED /* ToMarkdown.m in Sources */,
+				85C93A421824C4D800311FED /* TMDImage.m in Sources */,
+				85C93A2E1824C43700311FED /* TMDLineBreak.m in Sources */,
+				85C93A321824C44900311FED /* TMDHeading.m in Sources */,
+				85C93A49182505C800311FED /* TMDItalic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +339,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C93A451824FE5A00311FED /* TMDAnchorTests.m in Sources */,
+				85C93A4F18250C8B00311FED /* TMDHorizontalRuleTests.m in Sources */,
+				85C93A4D182509C000311FED /* TMDHeadingTests.m in Sources */,
+				85C93A261824C0AB00311FED /* TMDElementTests.m in Sources */,
+				85C93A4B182506EC00311FED /* TMDBoldTests.m in Sources */,
 				85C93A181824BF9100311FED /* ToMarkdownTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
