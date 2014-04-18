@@ -451,7 +451,7 @@
 				GCC_PREFIX_HEADER = "ToMarkdown/ToMarkdown-Prefix.pch";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -464,7 +464,7 @@
 				GCC_PREFIX_HEADER = "ToMarkdown/ToMarkdown-Prefix.pch";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -527,6 +527,7 @@
 				85C93A1D1824BF9100311FED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85C93A1E1824BF9100311FED /* Build configuration list for PBXNativeTarget "ToMarkdownTests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +536,7 @@
 				85C93A201824BF9100311FED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
