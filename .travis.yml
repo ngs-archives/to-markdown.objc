@@ -1,4 +1,4 @@
 language: objective-c
 xcode_project: ToMarkdown.xcodeproj
-xcode_scheme: ToMarkdownTests
+xcode_scheme: ToMarkdown
 
