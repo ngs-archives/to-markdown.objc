@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85697B851901770700707A67 /* TMDItalicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85697B821901770700707A67 /* TMDItalicTests.m */; };
+		85697B861901770700707A67 /* TMDLineBreakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85697B831901770700707A67 /* TMDLineBreakTests.m */; };
+		85697B871901770700707A67 /* TMDParagraphTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85697B841901770700707A67 /* TMDParagraphTests.m */; };
 		85C939FB1824BF9100311FED /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C939FA1824BF9100311FED /* Cocoa.framework */; };
 		85C93A051824BF9100311FED /* ToMarkdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C93A041824BF9100311FED /* ToMarkdown.m */; };
 		85C93A0C1824BF9100311FED /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C93A0B1824BF9100311FED /* XCTest.framework */; };
@@ -51,6 +54,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85697B821901770700707A67 /* TMDItalicTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDItalicTests.m; sourceTree = "<group>"; };
+		85697B831901770700707A67 /* TMDLineBreakTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDLineBreakTests.m; sourceTree = "<group>"; };
+		85697B841901770700707A67 /* TMDParagraphTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDParagraphTests.m; sourceTree = "<group>"; };
 		85C939F71824BF9000311FED /* ToMarkdown.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = ToMarkdown.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C939FA1824BF9100311FED /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		85C939FD1824BF9100311FED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -173,14 +179,17 @@
 		85C93A111824BF9100311FED /* ToMarkdownTests */ = {
 			isa = PBXGroup;
 			children = (
-				85C93A171824BF9100311FED /* ToMarkdownTests.m */,
 				85C93A121824BF9100311FED /* Supporting Files */,
-				85C93A251824C0AB00311FED /* TMDElementTests.m */,
 				85C93A441824FE5A00311FED /* TMDAnchorTests.m */,
 				85C93A4A182506EC00311FED /* TMDBoldTests.m */,
+				85C93A251824C0AB00311FED /* TMDElementTests.m */,
 				85C93A4C182509C000311FED /* TMDHeadingTests.m */,
 				85C93A4E18250C8B00311FED /* TMDHorizontalRuleTests.m */,
 				85C93A50182518FE00311FED /* TMDImageTests.m */,
+				85697B821901770700707A67 /* TMDItalicTests.m */,
+				85697B831901770700707A67 /* TMDLineBreakTests.m */,
+				85697B841901770700707A67 /* TMDParagraphTests.m */,
+				85C93A171824BF9100311FED /* ToMarkdownTests.m */,
 			);
 			path = ToMarkdownTests;
 			sourceTree = "<group>";
@@ -342,10 +351,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85697B861901770700707A67 /* TMDLineBreakTests.m in Sources */,
 				85C93A451824FE5A00311FED /* TMDAnchorTests.m in Sources */,
+				85697B851901770700707A67 /* TMDItalicTests.m in Sources */,
 				85C93A4F18250C8B00311FED /* TMDHorizontalRuleTests.m in Sources */,
 				85C93A51182518FE00311FED /* TMDImageTests.m in Sources */,
 				85C93A4D182509C000311FED /* TMDHeadingTests.m in Sources */,
+				85697B871901770700707A67 /* TMDParagraphTests.m in Sources */,
 				85C93A261824C0AB00311FED /* TMDElementTests.m in Sources */,
 				85C93A4B182506EC00311FED /* TMDBoldTests.m in Sources */,
 				85C93A181824BF9100311FED /* ToMarkdownTests.m in Sources */,

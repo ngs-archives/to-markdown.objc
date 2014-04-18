@@ -10,4 +10,20 @@
 
 @implementation TMDLineBreak
 
+- (BOOL)isVoid {
+  return YES;
+}
+
+- (NSArray *)patterns {
+  return @[@"br"];
+}
+
+-(NSString *)replaceText:(NSString *)text withTextCheckingResult:(NSTextCheckingResult *)result {
+  if([result numberOfRanges] == 2) {
+    NSRange range = [result rangeAtIndex:0];
+    return [text stringByReplacingCharactersInRange:range withString:@"  \n"];
+  }
+  return text;
+}
+
 @end
