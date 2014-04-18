@@ -10,6 +10,9 @@
 		85697B851901770700707A67 /* TMDItalicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85697B821901770700707A67 /* TMDItalicTests.m */; };
 		85697B861901770700707A67 /* TMDLineBreakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85697B831901770700707A67 /* TMDLineBreakTests.m */; };
 		85697B871901770700707A67 /* TMDParagraphTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85697B841901770700707A67 /* TMDParagraphTests.m */; };
+		85697B89190181FB00707A67 /* TMDCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85697B88190181FB00707A67 /* TMDCodeTests.m */; };
+		85697B8C1901825500707A67 /* TMDCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 85697B8A1901825500707A67 /* TMDCode.h */; };
+		85697B8D1901825500707A67 /* TMDCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 85697B8B1901825500707A67 /* TMDCode.m */; };
 		85C939FB1824BF9100311FED /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C939FA1824BF9100311FED /* Cocoa.framework */; };
 		85C93A051824BF9100311FED /* ToMarkdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C93A041824BF9100311FED /* ToMarkdown.m */; };
 		85C93A0C1824BF9100311FED /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C93A0B1824BF9100311FED /* XCTest.framework */; };
@@ -57,6 +60,9 @@
 		85697B821901770700707A67 /* TMDItalicTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDItalicTests.m; sourceTree = "<group>"; };
 		85697B831901770700707A67 /* TMDLineBreakTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDLineBreakTests.m; sourceTree = "<group>"; };
 		85697B841901770700707A67 /* TMDParagraphTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDParagraphTests.m; sourceTree = "<group>"; };
+		85697B88190181FB00707A67 /* TMDCodeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDCodeTests.m; sourceTree = "<group>"; };
+		85697B8A1901825500707A67 /* TMDCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDCode.h; sourceTree = "<group>"; };
+		85697B8B1901825500707A67 /* TMDCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDCode.m; sourceTree = "<group>"; };
 		85C939F71824BF9000311FED /* ToMarkdown.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = ToMarkdown.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C939FA1824BF9100311FED /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		85C939FD1824BF9100311FED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -182,6 +188,7 @@
 				85C93A121824BF9100311FED /* Supporting Files */,
 				85C93A441824FE5A00311FED /* TMDAnchorTests.m */,
 				85C93A4A182506EC00311FED /* TMDBoldTests.m */,
+				85697B88190181FB00707A67 /* TMDCodeTests.m */,
 				85C93A251824C0AB00311FED /* TMDElementTests.m */,
 				85C93A4C182509C000311FED /* TMDHeadingTests.m */,
 				85C93A4E18250C8B00311FED /* TMDHorizontalRuleTests.m */,
@@ -206,24 +213,26 @@
 		85C93A431824EA7E00311FED /* Elements */ = {
 			isa = PBXGroup;
 			children = (
-				85C93A211824C07F00311FED /* TMDElement.h */,
-				85C93A221824C07F00311FED /* TMDElement.m */,
 				85C93A371824C4B500311FED /* TMDAnchor.h */,
 				85C93A381824C4B500311FED /* TMDAnchor.m */,
 				85C93A3B1824C4C600311FED /* TMDBold.h */,
 				85C93A3C1824C4C600311FED /* TMDBold.m */,
+				85697B8A1901825500707A67 /* TMDCode.h */,
+				85697B8B1901825500707A67 /* TMDCode.m */,
+				85C93A211824C07F00311FED /* TMDElement.h */,
+				85C93A221824C07F00311FED /* TMDElement.m */,
 				85C93A2F1824C44900311FED /* TMDHeading.h */,
 				85C93A301824C44900311FED /* TMDHeading.m */,
 				85C93A331824C49C00311FED /* TMDHorizontalRule.h */,
 				85C93A341824C49C00311FED /* TMDHorizontalRule.m */,
 				85C93A3F1824C4D800311FED /* TMDImage.h */,
 				85C93A401824C4D800311FED /* TMDImage.m */,
+				85C93A46182505C800311FED /* TMDItalic.h */,
+				85C93A47182505C800311FED /* TMDItalic.m */,
 				85C93A2B1824C43700311FED /* TMDLineBreak.h */,
 				85C93A2C1824C43700311FED /* TMDLineBreak.m */,
 				85C93A271824C40A00311FED /* TMDParagraph.h */,
 				85C93A281824C40A00311FED /* TMDParagraph.m */,
-				85C93A46182505C800311FED /* TMDItalic.h */,
-				85C93A47182505C800311FED /* TMDItalic.m */,
 			);
 			name = Elements;
 			sourceTree = "<group>";
@@ -240,6 +249,7 @@
 				85C93A231824C07F00311FED /* TMDElement.h in Headers */,
 				85C93A291824C40A00311FED /* TMDParagraph.h in Headers */,
 				85C93A2D1824C43700311FED /* TMDLineBreak.h in Headers */,
+				85697B8C1901825500707A67 /* TMDCode.h in Headers */,
 				85C93A311824C44900311FED /* TMDHeading.h in Headers */,
 				85C93A48182505C800311FED /* TMDItalic.h in Headers */,
 				85C93A391824C4B500311FED /* TMDAnchor.h in Headers */,
@@ -337,6 +347,7 @@
 				85C93A241824C07F00311FED /* TMDElement.m in Sources */,
 				85C93A361824C49D00311FED /* TMDHorizontalRule.m in Sources */,
 				85C93A3E1824C4C600311FED /* TMDBold.m in Sources */,
+				85697B8D1901825500707A67 /* TMDCode.m in Sources */,
 				85C93A2A1824C40B00311FED /* TMDParagraph.m in Sources */,
 				85C93A3A1824C4B500311FED /* TMDAnchor.m in Sources */,
 				85C93A051824BF9100311FED /* ToMarkdown.m in Sources */,
@@ -351,6 +362,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85697B89190181FB00707A67 /* TMDCodeTests.m in Sources */,
 				85697B861901770700707A67 /* TMDLineBreakTests.m in Sources */,
 				85C93A451824FE5A00311FED /* TMDAnchorTests.m in Sources */,
 				85697B851901770700707A67 /* TMDItalicTests.m in Sources */,

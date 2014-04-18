@@ -25,7 +25,8 @@
     for(NSInteger i=0;i<level;i++) {
       [igeta appendString:@"#"];
     }
-    return [NSString stringWithFormat:@"%@ %@", igeta, value];
+    NSString *repl = [NSString stringWithFormat:@"%@ %@", igeta, value];
+    return [text stringByReplacingCharactersInRange:[result rangeAtIndex:0] withString:repl];
   }
   return text;
 }

@@ -21,12 +21,18 @@
 - (NSString *)replaceText:(NSString *)text {
   __block NSString *mText = [text copy];
   [self.patterns enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-    NSArray *match =
-    [[self regexAtIndex:idx]
-     matchesInString:mText options:0 range:NSMakeRange(0, mText.length)];
-    for(NSTextCheckingResult *res in [match reverseObjectEnumerator]) {
-      mText = [self replaceText:mText withTextCheckingResult:res];
-    }
+    NSArray *match = nil;
+    NSString *fromText = nil;
+    NSTextCheckingResult *res = nil;
+    do {
+      match = [[[[self regexAtIndex:idx]
+                 matchesInString:mText options:0 range:NSMakeRange(0, mText.length)] reverseObjectEnumerator] allObjects];
+      fromText = [mText copy];
+      if([match count] > 0) {
+        res = match[0];
+        mText = [self replaceText:mText withTextCheckingResult:res];
+      }
+    } while (![fromText isEqualToString:mText]);
   }];
   return mText;
 }
